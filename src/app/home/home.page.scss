@@ -1,1 +1,16 @@
+ion-content {
+  --overflow: hidden;
+}
 
+.line {
+  opacity: 0.5;
+  border-bottom: 0.5px;
+  border-bottom-color: gray;
+  border-style: solid;
+}
+
+.calc-button {
+  width: calc(25% - 4px);
+  height: 64px;
+  font-size: 32px;
+}
